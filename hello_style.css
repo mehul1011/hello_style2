@@ -1,0 +1,26 @@
+div{
+	position: fixed;
+	
+			text-align: center; /* the text entered will be centered */
+			
+			height: 100px; /* height and width are for the background*/
+			width: 400px;   
+			border: 8px solid green;
+			background: yellow;  
+			
+			top: 50%;
+			left: 50%;
+			/*margin-top: -90px;
+			margin-left: -120px;*/
+			transform:translate(-50%, -50%);
+			animation: mymove 5s
+			infinite;
+		}
+		@keyframes mymove {
+			from {top: -100px;}
+			to {top: 300px;}
+		}
+
+			
+			
+}   
